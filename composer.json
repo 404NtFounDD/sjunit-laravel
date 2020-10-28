@@ -19,7 +19,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "OldFather\\SJunitLaravel\\Providers"
+                "OldFather\\SJunitLaravel\\Providers\\SjunitServiceProvider"
             ]
         }
     }
