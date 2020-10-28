@@ -1,0 +1,29 @@
+{
+    "name": "oldfather\/sjunit-laravel",
+    "description": "a test",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "OldFather",
+            "email": "512393791@qq.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2",
+        "fideloper/proxy": "^4.0",
+        "laravel/framework": "^6.18.35",
+        "laravel/tinker": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "OldFather\\SJunitLaravel\\": "src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "OldFather\\SJunitLaravel\\Providers"
+            ]
+        }
+    }
+}
